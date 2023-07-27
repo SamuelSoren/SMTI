@@ -18,6 +18,12 @@
 
    ->         <script src="smti.js"></script>"
 */
+const privacy = {
+    showinstitute : "no",
+    showauthor  : "yes",
+    showcontact : "yes"
+}
+
 const institute = {
     name : "Samsusan Multimedia & Technology Institute",
     address : "Address here!",
@@ -30,11 +36,20 @@ const thescript = {
     source : "https://github.com/sanjeevstephan/SMTI/"
 }
 
-
-
+/*
+    The Logic of the Script ! NOTE : DONT MAKE ANY CHANGES! THIS WILL BREAK THE WEBSITE!
+    
+*/
 function display_smti_info(element_id,value_to_display) { document.getElementById(element_id).innerHTML = value_to_display; }
 
+if (privacy.showinstitute == "yes") {
+    display_smti_info("id_institute_name",institute.name);
+    display_smti_info("id_institute_address",institute.address);
+} else {
+    display_smti_info("id_institute_name","No Institute Name Found!");
+    display_smti_info("id_institute_address","No Address");
+}
 
-display_smti_info("id_institute_name",institute.name);
-display_smti_info("id_institute_address",institute.address);
-display_smti_info("id_developed_by",thescript.author);
+if(privacy.showauthor == "yes") {
+    display_smti_info("id_developed_by",thescript.author);
+}
