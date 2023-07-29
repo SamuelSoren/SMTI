@@ -28,7 +28,7 @@ const privacy = {
     showcontact : "yes"
 };
 
-const institute = {
+const institute = { 
     name        : "Samsusan Multimedia & Technology Institute (SMTI)",
     address     : "Ambedkar Nagar, अंबेडकर नगर, गंगटा, Gangta, Godda, Jharkhand 814133",
     district    : "Godda",
