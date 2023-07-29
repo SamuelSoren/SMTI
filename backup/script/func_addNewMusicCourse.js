@@ -1,7 +1,14 @@
-function addNewComputerCourse(course_title, course_sub_title, course_code, source_page, course_img_cover) {
-    var id_computer_course = "id_computer_course";
-    var existing_courses = document.getElementById(id_computer_course).innerHTML;
+function addNewMusicCourse(obj) {
     
+    course_title = obj.course_title ;
+    course_sub_title = obj.course_sub_title ;
+    course_code = obj.course_code ;
+    source_page = obj.source_page ;
+    course_img_cover = obj.course_img_cover ;
+
+    var id_music_course = "id_music_course";
+    var existing_courses = document.getElementById(id_music_course).innerHTML;
+    var image_path = "images/topics/" ;
     var single_course = "<div class='col-lg-4 col-md-6 col-12 mb-4 mb-lg-3'> " +
         "<div class='custom-block bg-white shadow-lg'> " +
         "<a href='courses/" + source_page + "'> " +
@@ -12,12 +19,12 @@ function addNewComputerCourse(course_title, course_sub_title, course_code, sourc
         "</div> " +
         "<span class='badge bg-advertising rounded-pill ms-auto'>" + course_code + " </span> " +
         "</div> " +
-        "<img src='" + course_img_cover + "' class='custom-block-image img-fluid' alt=''> " +
+        "<img src='" + image_path + course_img_cover + "' class='custom-block-image img-fluid' alt=''> " +
         "</a> " +
         "</div> " +
         "</div> ";
 
     existing_courses += single_course;
-    document.getElementById(id_computer_course).innerHTML = existing_courses;
+    document.getElementById(id_music_course).innerHTML = existing_courses;
 }
 

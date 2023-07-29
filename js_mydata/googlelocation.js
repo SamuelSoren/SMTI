@@ -1,7 +1,7 @@
 /*
 |---------------------------------------------------------------------------|
 |                                                                           |
-|            Institute Co-Director : Samuel Soren & Susana Hansda           |
+|            Institute Co-Director : Samuel Soren & Susanna Hansda           |
 |                                                                           |       
 |          ____  __  __ _____ ___       ____                   _            |   
 |         / ___||  \/  |_   _|_ _|     / ___| ___   ___   __ _| | ___       | 
@@ -25,7 +25,7 @@
 
    |--------------------------------------------------------|
    |                                                        |
-   |    <script src="data/googlelocation.js"></script>"     |
+   |    <script src="js-mydata/googlelocation.js"></script>"     |
    |                                                        |
    |--------------------------------------------------------|
 */
