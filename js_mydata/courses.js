@@ -39,7 +39,7 @@ const course_101 = {
     course_sub_title : "Duration: 6 Months",
     badge_class : computer_badge_class_bg,                     //dont-change
     course_code : "101",
-    source_page : "basic-computer-course.html",
+    source_page : "101-Course.html",
     image_path : default_image_location,                      //dont-change
     course_img_cover : "undraw_online_ad_re_ol62.png"
     
