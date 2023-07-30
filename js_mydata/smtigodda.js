@@ -106,5 +106,6 @@ if(privacy.showauthor == "yes") {
 display_smti_info(institute_district_id,institute.district);
 // LOGO
 document.getElementById("id_institute_logo").innerHTML = "<img src='" + assets.logo + "' width='" + assets.logosize+" ' />"
+document.getElementById("id_institute_logo_course").innerHTML = "<img src='" + assets.logo + "' width='" + assets.logosize+" ' />"
 
 
